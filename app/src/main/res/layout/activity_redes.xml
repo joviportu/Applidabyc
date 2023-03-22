@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/truque"
+    tools:context=".ui.Redes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <VideoView
+            android:id="@+id/video1"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"/>
+
+        <TextView
+            android:id="@+id/tvFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="www.facebook.com/Fdabycoficial"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="333dp"
+            android:layout_marginTop="300dp"/>
+
+        <TextView
+            android:id="@+id/tvTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:autoLink="web"
+            android:text="https://www.twitter.com/fdabyc"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="100dp"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/tvlinkedin"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:autoLink="web"
+            android:text="www.linkedin.com/in/fundaci%C3%B3n-dios-abre-brecha-y-camino-76a1a9250"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="446dp" />
+
+        <TextView
+            android:id="@+id/tvInstagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="https://www.instagram.com/mi_pagina"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="407dp" />
+
+        <TextView
+            android:id="@+id/tvtiktok"
+            android:layout_width="314dp"
+            android:layout_height="40dp"
+            android:autoLink="web"
+            android:text="https://www.tiktok.com/@fundaciondabyc?_t=8WQXAvMGJ41_r=1"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matriz - Sauces 4"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:text="+593978728242"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="683dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:text="fundaciondabyc@gmail.com"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="624dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="redes sociales "
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="263dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contactos"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="605dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

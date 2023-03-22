@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Registro">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:text="Únete a DABYC"
+            android:fontFamily="@font/calibribold"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:text="Correo Electrónico"
+            android:textColor="@color/btn_color" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="25dp"
+            android:hint="Ingrese correo electronico"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="Contraseña"
+            android:textColor="@color/btn_color" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:hint="Ingrese Contraseña"
+            android:inputType="textPassword"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="257dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginVertical="25dp"
+            android:text="Aceptos los terminos y condicones y politicas de servicios " />
+
+        <Button
+            android:id="@+id/btn_go_to_menuP"
+            android:layout_width="247dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/btn_color"
+            android:text="CONTINUAR"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:id="@+id/tv_go_to_login"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            android:text="¿Tienes cuentas?
+            Iniciar sesion"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

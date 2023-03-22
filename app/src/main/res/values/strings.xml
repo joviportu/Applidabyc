@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Application Dabyc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_Inicio">Inicio</string>
+    <string name="menu_Perfil">Perfil</string>
+    <string name="menu_RedesSociales">Redes Sociales</string>
+    <string name="menu_Donaciones">Donaciones</string>
+
+
+    <string name="hin_nombre1">Proteinas Solidarias:</string>
+    <string name="hin_nombre2">Utiles Escolares:</string>
+    <string name="hin_nombre4">Higiene y Proteccion:</string>
+    <string name="hin_nombre3">Viveres:</string>
+    <string name="hin_productos1">Pollo, Carne de Res, Carne de Cerdo, Pescado, Huevos, Queso, Leche, Atun, Jamon, Mortadela, Camaron, Hueso Carnudo, Costilla</string>
+    <string name="hin_productos2">1 Resma de Hojas, 2 Cuadernos de cuadro Universitario, 2 cuadernos de linea Universitario, 1 Funda de hojas de cuadro, 1 Funda de hoja de Linea, Caja de Lapices de Colores, Lapiz, sacapuntas, Borrador, Pluma: azul, roja y negra, Caja de Marcadores</string>
+    <string name="hin_productos3">Harina, Aceite, Mantequilla, Leche, Chocolate/Cafe, Sobres de Sopa, Lenteja/ Frejol, Arroz, Avena, Enlatados en general, Sal, Azucar</string>
+    <string name="hin_productos4">Shampoo, Pasta, paquete de 3 Jabones, Papel Higienico, Toallas Sanitarias, Alcohol, Mascarillas, Detergentes, Desinfectante, Cloro</string>
+    <string name="hin_contacto1">Contacto: 0978728242</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_inicio"
+            android:title="@string/menu_Inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_perfil"
+            android:title="@string/menu_Perfil" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_redsocial"
+            android:title="@string/menu_RedesSociales" />
+        <item
+            android:id="@+id/nav_donaciones"
+            android:icon="@drawable/donacionesimg"
+            android:title="@string/menu_Donaciones" />
+    </group>
+</menu>
